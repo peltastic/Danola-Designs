@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danola Designs</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="navigation">
+      <input type="checkbox" name="1" class="navigation__checkbox" id="check" />
+      <label for="check" class="navigation__button">
+        <span class="navigation__icon"></span>
+      </label>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li ><button class="navigation__listItems" id="link1" >HOME</button></li>
+          <li ><button class="navigation__listItems" id="link2" >ABOUT US</button></li>
+          <li ><button class="navigation__listItems" id="link3" >OUR SERVICES</button></li>
+          <li ><button class="navigation__listItems" id="link4" >OUR WORKS</a></li>
+        </ul>
+      </nav>
+
+      <nav class="navigation__navLandscape">
+        <ul class="navigation__listLandscape">
+          <li ><button class="navigation__listItemsLand" id="link5" >HOME</button></li>
+          <li ><button class="navigation__listItemsLand" id="link6" >ABOUT US</button></li>
+          <li ><button class="navigation__listItemsLand" id="link7" >OUR SERVICES</button></li>
+          <li ><button class="navigation__listItemsLand" id="link8" >OUR WORKS</a></li>
+        </ul>
+      </nav>
+      <img
+        src="img/companyName.jpg"
+        alt="company logo"
+        class="navigation__logo"
+      />
+    </div>
+    <header class="header" id="header">
+      <img src="img/works-5.jpg" alt="background" class="header__background">
+      <h1 class="header__heading">
+          <span>DANOLA</span>
+          <span>DESIGNS</span>
+      </h1>
+      <a href="mailto:danieloluwa16@gmail.com" class="header__btn">contact us</a>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <h1 class="about__heading">
+                ABOUT US
+            </h1>
+            <p class="about__paragraph">
+                We're a professional brand that 
+                specializes in helping people market their
+                business(es) properly through graphic design.
+            </p>
+        </section>
+        <section class="services" id="services">
+            <h1 class="services__heading">
+                OUR SERVICES
+            </h1>
+            <ul class="services__list">
+              <li class="services__listItems">Logo Designs</li>
+              <li class="services__listItems">Business Cards</li>
+              <li class="services__listItems">Application Designs</li>
+              <li class="services__listItems">Video Content</li>
+              <li class="services__listItems">Marketing</li>
+              <li class="services__listItems">Video Animation</li>
+            </ul>
+        </section>
+        <section class="works" id="works">
+          <h1 class="works__heading">OUR WORKS</h1>
+          <p class="works__paragraph">Here is a list of our works.....</p>
+          <ul class="works__list">
+            <li class="works__listItems">
+              <img src="img/works-6.jpg" alt="photo 6" class="works__images">
+            </li>
+            <li class="works__listItems">
+              <img src="img/works-9.jpg" alt="photo 9" class="works__images">
+            </li>
+            <li class="works__listItems">
+              <img src="img/works-5.jpg" alt="photo 5" class="works__images">
+            </li>
+            <a href="#" class="works__link">See more</a>
+          </ul>
+        </section>
+        <section class="all-work" id="allWork">
+          <ul class="all-work__list">
+            <img src="img/icon-close.svg" alt="close" class="all-work__close">
+          </ul>
+        </section>
+    </main>
+    <footer class="footer">
+      <img
+        src="img/companyName.jpg"
+        alt="company logo"
+        class="footer__logo"
+      />
+      <h1 class="footer__heading">
+        <span>DANOLA</span>
+        <span>DESIGNS</span>
+      </h1>
+      <div class="footer__img">
+        <img src="img/icon-facebook.svg" id="facebookLogo" alt="facebook icon" class="footer__socialLogo">
+        <img src="img/icon-instagram.svg" id="instagramLogo" alt="instagram photo" class="footer__socialLogo">
+        <img src="img/icon-twitter.svg" id="twitterLogo" alt="twitter photo" class="footer__socialLogo">
+      </div>
+      <div class="footer__artManager">
+        <img src="img/artManager.jpg" alt="artManager photo" class="footer__artManagerPhoto">
+        <h1 class="footer__artManagerName">
+          <span>Art MAnager:</span>
+          <span>Daniel Olaoluwa</span>
+        </h1>
+      </div>
+    </footer>
+  </body>
+</html>
